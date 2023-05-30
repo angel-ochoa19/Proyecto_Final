@@ -1,0 +1,37 @@
+.foto {
+    border-radius: 100px;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 3px;
+    padding: 3px;
+    background-color: orange;
+}
+
+.nombre {
+    font-size: 26px;
+    color: blue;
+}
+
+.datos {
+    border-style: solid;
+    border-color: aqua;
+    border-width: 3px;
+    background-color: orange;
+    font-size: 26px;
+}
+
+.personal {
+    background-color: aqua;
+    border-radius: 50px;
+    color: black;
+    border-style: solid;
+    border-color: orange;
+    border-width: 3px;
+    padding: 25px;
+}
+
+.direccion {
+    font-size: 20px;
+    
+    
+}

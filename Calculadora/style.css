@@ -1,0 +1,58 @@
+body {
+    min-height: 100vh; /*para correr hacia abajo*/
+    background-image: url(imagen\ numeros.jpg);
+    /*background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; (me gusto mas que se repita)*/
+    display: grid;/*centrar los lados o dejar un espacio a los lados */
+    place-items: center;/*centrar los 4 lados*/
+}
+
+.calculator {
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);/*cinco columnas una tabla*/
+    gap: .8rem; /*para aumentar el volumen*/
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.pantalla {
+    grid-column: 1 / -1; /*esto es para que la pantalla se vea en la fila completa*/
+   /* background-image: url(imagen\ numeros.jpg);
+    background-position: center; no me gusto la imagen mehor le puse color */
+    background-color: grey;
+    padding: 10px;
+    font-size: 35px;
+    color: blue;
+    text-align: right;/*para agrar a la derecha*/
+    border-radius: 25px;
+    border-style: solid;
+    border-color: yellow;
+    border-width: 5px;
+}
+
+.bot {
+    border-radius: 10px;
+    padding: 1.5rem .5rem;
+    cursor: pointer;
+}
+
+#cero {
+    grid-column: span 2;
+}
+#igual {
+    grid-column: span 2;
+}
+
+#borrar {
+    background-color:  brown;
+}
+
+#ac {
+    background-color:  brown;
+}
