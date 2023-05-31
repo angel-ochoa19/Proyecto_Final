@@ -31,9 +31,9 @@
         <li><a class="a4" href="https://fir-9edc0.web.app">Chat con firebase</a></li>
         <li><a href="#">Cambio de estilos</a>
             <ul class="submenu">
-                <li><a href="#">Estilo #1</a></li> 
-                <li><a href="#">Estilo #2</a></li>
-                <li><a href="#">Estilo #3</a></li>
+                <li><a href="#"><button onclick="aplicarEstilo(1)">Estilo #1</button></a></li>
+                <li><a href="#"> <button onclick="aplicarEstilo(2)">Estilo #2</button></a></li>
+                <li><a href="#"> <button onclick="aplicarEstilo(3)">Estilo 3</button></a></li>
             </ul>
         </li>
             </ul>
@@ -45,15 +45,16 @@
         <div class="capa-gradient"></div>
         <div class="container-details">
             <div class="details">                
-                <h1>¿Para que nos sirve un proyecto?</h1>
-                <p> hacer un proyecto final en la universidad es una 
+                <h1 id="titulo">¿Para que nos sirve un proyecto?</h1>
+                <p id="parrafo"> hacer un proyecto final en la universidad es una 
                 oportunidad valiosa para aplicar y desarrollar habilidades, 
                 profundizar en un tema de interés, prepararse para la vida 
                 profesional y contribuir al conocimiento en tu campo de estudio.
                  Además, el proyecto final puede tener un impacto significativo 
                  en tu futuro académico y profesional al demostrar tus capacidades y logros.</p>
-                <button>Ver mas detalles</button>
-                <button id="elBoton">Prueba</button>
+
+                 <button onclick="resetear(1)">Regresar a la normalidad</button>
+                
             </div>
         </div>
     </div>

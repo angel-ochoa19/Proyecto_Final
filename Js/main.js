@@ -1,19 +1,18 @@
-let miBoton = document.getElementById("elBoton");
-let miParrafo = document.getElementById("elParrafo");
+function aplicarEstilo(numero){
+    var titulo = document.getElementById('titulo');
+    var parrafo = document.getElementById('parrafo');
+    var body = document.body;
 
-// dblclick
-// mouseover
-// keydown
-// mouseout
+    titulo.classList = "estilo" + numero;
+    parrafo.classList = "estilo" + numero;
+    body.classList = "estilo" + numero;
+}
+function resetear(numero){
+    var titulo = document.getElementById('titulo');
+    var parrafo = document.getElementById('parrafo');
+    var body = document.body;
 
-miParrafo.addEventListener("mouseover", () => {
-
-    miParrafo.classList.toggle("parrafo-azul");
-
-})
-
-miParrafo.addEventListener("dblclick", () => {
-
-    miParrafo.classList.toggle("parrafo-rojo");
-
-})
+    titulo.classList = "";
+    parrafo.classList = "";
+    body.classList = "";
+}
