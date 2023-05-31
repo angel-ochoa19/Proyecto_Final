@@ -261,3 +261,22 @@ article p{
         font-size: 18px;
     }
 }
+button {
+    background-color: white;
+    border: none;
+    padding:  auto;
+    color: black;
+    font-size: auto;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: auto;
+    border-left:  solid blue ;
+    border-bottom: 2px solid blue;
+    border-top: 2px solid blue;
+    border-right:2px solid blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button:hover {
+    background-color: rgb(61, 60, 60) ;
+}
